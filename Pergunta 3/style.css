@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+main{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(19, 8, 116);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    letter-spacing: 3px;
+}

@@ -1,0 +1,28 @@
+<!--Crie um formulário simples com campos de nome, e-mail e senha. Implemente a validação desses campos utilizando a linguagem escolhida. Certifique-se de que o e-mail seja válido e que a senha tenha pelo menos 8 caracteres.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <form id="inForm">
+        <label for="name">Nome:</label>
+        <input class="input" type="text" placeholder="Digite seu nome..." id="inNome">
+
+        <label for="email">Email:</label>
+        <input class="input" type="email" placeholder="Digite seu email..." id="inEmail">
+        <p id="outEmail"></p>
+
+        <label for="password">Senha:</label>
+        <input class="input" type="password" placeholder="Digite sua senha..." id="inSenha" >
+        <p id="outSenha"></p>
+
+        <input class="btn" type="button" value="Enviar" id="btEnviar">
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
